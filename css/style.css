@@ -9,8 +9,9 @@ header {
     background-color: #eee;
 }
 
-@media (min-width: 768px) {
-    .container {
-        max-width: 70%;
-    }
-}
+@media (max-width: 650px) {
+    div.container {
+        display: none;
+      }
+  }
+  
